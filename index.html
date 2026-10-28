@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>College Event Registration</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>College Event Registration Portal</h1>
+        <p>Register for workshops, seminars and college events</p>
+</header>
+
+
+<main class="container">
+    <section class="card">
+       <h2>Event Registration Form</h2>
+       <form id="registrationForm">
+          <label for="studentName">Student Name</label>
+          <input id="studentName" name="studentName" type="text"
+                     placeholder="Enter your full name" required>
+          <label for="registerNo">Register Number</label>
+          <input id="registerNo" name="registerNo" type="text"
+                     placeholder="Enter register number" required>
+
+
+          <label for="department">Department</label>
+          <select id="department" name="department" required>
+             <option value="">Select department</option>
+             <option>Computer Science</option>
+             <option>Commerce</option>
+             <option>Mathematics</option>
+             <option>English</option>
+             <option>Other</option>
+          </select>
+
+
+          <label for="event">Choose Event</label>
+          <select id="event" name="event" required>
+
+
+             <option value="">Select an event</option>
+             <option>Web Development Workshop</option>
+             <option>Technical Quiz</option>
+             <option>Paper Presentation</option>
+             <option>Cultural Fest</option>
+          </select>
+
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email"
+                     placeholder="student@example.com" required>
+
+
+          <button type="submit">Register Now</button>
+       </form>
+      <p id="message" role="status"></p>
+    </section>
+
+
+   <section class="card">
+      <h2>Why Register?</h2>
+      <ul>
+         <li>Explore academic and cultural activities.</li>
+         <li>Improve teamwork and communication.</li>
+         <li>Build practical knowledge and confidence.</li>
+      </ul>
+   </section>
+</main>
+<footer>College Event Registration Portal</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+

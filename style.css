@@ -1,0 +1,67 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f6fc;
+    color: #203047;
+}		
+
+header {
+     text-align:  center;
+     background: #174a7c;
+     color: white;
+     padding: 28px 16px;
+}
+
+header h1 { margin: 0 0 8px; }
+header p { margin: 0; }
+
+.container {
+    width: 92%;
+    max-width: 850px;
+    margin: 28px auto;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+   background: white;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4p 14px #173b5b18;
+}
+
+h2 { color: #174a7c; margin-top: 0; }
+
+label {
+   display: block;
+   margin: 12px 0 6px;
+   font-weight: bold;
+}
+
+input, select {
+   width: 100%;
+    padding: 11px;
+    border: 1px solid #bdc9d8;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    border - radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hower { background: #0d3559; }
+#message { font-weight: bold; color: #17633a; }
+footer { text-align: center; padding: 18px; color: #52657a; }
+
+@media (min-width: 700px) {
+       .container { grid-template-columns: 2fr 1fr; align-items: start; }
+}
+
